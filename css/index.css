@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Nexa;
+    font-weight: 200;
+    src: url("fonts/Nexa-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Nexa;
+    font-weight: 400;
+    src: url("fonts/Nexa-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Nexa;
+    font-weight: 600;
+    src: url("fonts/Nexa-XBold.otf") format("opentype");
+}
+
+body {
+    font-family: Nexa, sans-serif;
+    background-color: #ebeaf7;
+    color: #4e4e4e;
+    font-weight: 400;
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+}
+
+/* 
+SIDEBAR
+*/
+
+nav#sidebar__nav {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: blueviolet;
+    color: #fff;
+    height: 100%;
+    justify-content: space-between;
+}
+
+nav#sidebar__nav a.menu__icon {
+    color: #fff;
+    padding: 20px;
+    align-self: stretch;
+    text-align: center;
+}
+
+nav#sidebar__nav a.menu__icon:hover {
+    background: #FF5722;
+    color: white;
+}
+
+.menu__icon {
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+.menu {
+    height: 300px;
+}
